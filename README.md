@@ -5,7 +5,7 @@
 
 ### Semana 02 - (Retos Bootstrap) - Crea la siguiente plantilla de login con Bootstrap.
 
-![Ejercicio]()
+![Ejercicio](https://github.com/carlosnsuner/cns-bootstrap-login-urbalab/raw/master/img/captura.PNG)
 
 
 ***
