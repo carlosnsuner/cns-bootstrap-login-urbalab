@@ -21,8 +21,69 @@
     crossorigin="anonymous"
   ></script>
   <!-- CSS propio -->
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css" />
   <body>
+    <!-- Capa principal contenedor -->
+    <div class="container-fluid">
+      <div class="row title">
+        <div class="col-12"><h3>Login Form</h3></div>
+        <div class="col-12">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae iusto maxime rem assumenda dolor ratione.
+          </p>
+        </div>
+      </div>
+      <div class="row header">
+        <div class="col-10">
+          <h5>Login to our site</h5>
+          <p>Enter user name and Password</p>
+        </div>
+        <div class="col-2 imagen-candado"><img src="./img/candado.png" /></div>
+        <!-- <div class="col-10"></div>
+        <div class="col-2">imagen</div> -->
+      </div>
+
+      <div class="row main">
+        <div class="mb-3">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputUserName1" class="form-label">
+                User name
+              </label>
+              <input type="username" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">
+                Password
+              </label>
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary button-submit">
+              Log In
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="col-12">
+          <h5>Login with</h5>
+        </div>
+        <div class="row footer">
+          <div class="col-4">
+            <button type="button" class="btn btn-secondary button-footer">Facebook</button>
+          </div>
+          <div class="col-4">
+            <button type="button" class="btn btn-secondary">Twitter</button>
+          </div>
+          <div class="col-4">
+            <button type="button" class="btn btn-secondary">Google+</button>
+          </div>
     
+      </div>
+    </div>
   </body>
 </html>
