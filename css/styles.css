@@ -43,7 +43,6 @@ body{
 }
 .imagen-candado{
 
-  
     display: flex;
     text-align: center;
     align-items: center;
@@ -55,7 +54,6 @@ body{
     display: flex;
     text-align: center;
     align-items: center;
-
 }
 
 .button-footer{
